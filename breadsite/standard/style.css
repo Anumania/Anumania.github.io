@@ -1,0 +1,192 @@
+body {
+	font-family: Arial;
+	background-color: #390048;
+	color: white;
+	
+}
+a {
+	text-decoration: none;
+}
+.h1 {
+	color: white;
+}
+.h-2 {
+	color: #936f42;
+	margin: 10px;
+}
+.h-3 {
+	color: #fb1104;
+	margin: 10px;
+}
+.s {
+	margin-left: 3%;
+}
+.s-2 {
+	margin-left: 6%;
+}
+.a-1 {
+	color:#936f42;
+	font-weight: bold;
+	
+
+}
+.a-2 {
+	font-size: 80%;
+	color: #2a89d5;
+	text-decoration: underline;
+
+}
+.a-2b {
+	font-size: 80%;
+	color: #df546b;
+	text-decoration: none;
+
+}
+.a-3 {
+	font-size: 80%;
+	color: #ff7bfb;	
+	text-decoration: underline;
+}
+.a-4 {
+	color:#fb1104;
+	text-decoration: none;
+}
+.div-01 {
+	display:inline-block;
+	height: 100%;
+	width: 25%;
+	margin-left: 5px;
+	border: 5px solid;
+	background-color: #390048;
+}
+.div-1 {
+	display:inline-block;
+	transform-origin: center;
+	transform: translate(45%);
+	vertical-align: top;
+	height: 100%;
+	width: 25%;
+	margin-left: 0px;
+	border: 5px solid;
+	background-color: #390048;
+}
+.div-10 {
+/*	display:inline-block; */
+	float: right;
+	height: 100%;
+	width: 25%;
+	margin-left: 0px;
+	border: 5px solid;
+	background-color: #390048;
+}
+.div-1b {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	border: 5px solid;
+	background-color: #390048;
+}
+.div-2 {
+	height: 100%;
+	width: 60%;
+	position: relative;
+	padding-top: 5px;
+	margin: 0px;
+	border: 2px solid;
+	background-color: #390048;
+	color: grey;
+	padding-bottom: 5px;
+}
+.div-2b {
+	height: 100%;
+	width: 350px;
+	padding-top: 5px;
+	margin: 0px;
+	border: 2px solid;
+	background-color: #390048;
+	color: grey;
+	padding-bottom: 5px;
+}
+.a-f {
+	font-size: 80%;
+	color: white;	
+}
+.footer {
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	left: 50%;
+}
+.legend {
+	font-size: 80%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+/*
+    {
+        box-sizing: border-box;
+    }
+    Set additional styling options for the columns
+    .column {
+	float: left;
+	width: 33%;
+	height: 100%;
+}
+    .column-game {
+	float: left;
+	width: 550px;
+	height: 100%;
+}
+    .column-game2 {
+	float: left;
+	width: 33%;
+	height: 100%;
+}
+
+    .row:after {
+	content: "";
+	display: table;
+	clear: both;
+	background-color:#390048;
+
+}
+.gameimage {
+	height: 500px;
+	padding-left: 5px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.gameinfo {
+	word-wrap: break-word;
+	text-indent: 5px;
+	margin: 5px;
+	padding-top: 20px;
+	display: block;
+}
+.div-1-game {
+	height: 100%;
+	width: 99%;
+	border: 5px solid;
+	background-color: #390048;
+}
+.div-1b-game {
+	height: 528px;
+	width: 100%%;
+	border: 5px solid;
+	background-color: #390048;
+}
+.div-0-game {
+	height: 100%;
+	width: 100%;
+	border-bottom: 5px solid;
+	background-color: #390048;
+	
+}
+SAOSUHOUIAISUAAAAAAAAAAA test test
+*/
+.h-template {
+	color: #936f42;
+	margin: 10px;
+	color: white
+}

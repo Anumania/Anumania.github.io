@@ -1,0 +1,8 @@
+{
+  "name": "screensaver",
+  "main": "index.html",
+    "window": {
+		"frame": false,
+		"transparent": true
+  }
+}

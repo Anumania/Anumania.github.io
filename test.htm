@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>A Simple VBScript</title>
+<script type="text/vbscript">
+<!--
+Option Explicit
+Dim intTotal, num1, num2
+
+Function WhichLarger(x, y)
+If(x > y) Then
+WhichLarger = x
+Else
+WhichLarger = y
+End If
+End Function
+
+Sub GetNums_OnClick()
+Dim larger, sum
+
+num1 = InputBox("Enter an integer", "Input Box", , 700, 700)
+num2 = InputBox("Enter an integer", "Input Box", , 3200, 3200)
+
+larger = WhichLarger(num1, num2)
+sum = CInt(num1) + CInt(num2)
+
+Call MsgBox("The sum of the two numbers is " & sum & ". " &_
+larger & " was the larger of the two numbers.")
+End Sub
+-->
+</script>
+</head>
+
+<body>
+Click the button to see what happens.
+
+<form>
+<input name="GetNums" type="button" value="Click Here" />
+</form>
+</body>
+</html> 

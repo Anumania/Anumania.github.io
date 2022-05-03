@@ -1,0 +1,15 @@
+<body style="background-color:rgba(0,0,0,0);">
+<canvas id = "screen" width = 400 height = 400></canvas>
+<script>
+canvas = document.getElementById("screen")
+ctx = canvas.getContext("2d");
+loop = function(){
+	ctx.font = '48px serif';
+  ctx.fillText('Hello world', 10, 50);
+  console.log("trolled");
+ }
+window.onload = function(){
+console.log("trolled")
+	setInterval(loop,1000/60);
+}
+</script>

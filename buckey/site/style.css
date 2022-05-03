@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-color: #000000;
+    background-image: url('entrance_2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+.p-1 {
+    font-family: consolas;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.a-1 {
+    text-decoration: none;
+    color: #00fff2;
+    font-weight: bold;
+}
+.a-2 {
+    text-decoration: none;
+    color: #FF00D0;
+    font-weight: bold;
+}
+.p-2 {
+    font-family: consolas;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+.p-3 {
+    font-family: consolas;
+    font-size: 20px;
+    margin-left: 38%;
+    margin-top: 4%;
+}
+.p-4 {
+    font-family: consolas;
+    font-size: 20px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.footer-1 {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;  
+}
+.footer-2 {
+	position: fixed;
+	left: 43%;
+    bottom: 0%;
+    color: #0004ff;
+}
+.div-1 {
+    display: inline-block;
+    border: 5px solid;
+    height: 266px;
+    width: 356px;
+}
+.div-1b {
+    display: inline-block;
+    border: 5px solid;
+    height: 266px;
+    width: 356px;
+    margin-top: 5px;
+}
+.site-icon{
+    height: 20px;
+}
+.site-image{
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
