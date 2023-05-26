@@ -1327,7 +1327,7 @@ emitters: [
 		DisplayName: "Created with GameMaker",
 
 		UseFBExtension: false,
-		tm : 1685097847
+		tm : 1685098229
 ,		AllowStatistics: "True"
 }
 };
@@ -1355,12 +1355,14 @@ _inst.gmlused=true;
 // #####################################################################################################
 // /// @description Insert description here 
 // // You can write your code in this editor 
+// draw_self(); 
 // if(used){ 
 // 	draw_set_halign(fa_center); 
 // 	draw_text(1366/2,768-40,"I've lost my hat in the forest area up above, can you find it for me? \nthere is some secret to the forest i cannot seem to figure out"); 
 // }
 function gml_Object_o_npc_Draw_0( _inst, _other )
 {
+draw_self( _inst  );
 if ( yyGetBool(_inst.gmlused)) {{
 draw_set_halign( 1 );
 draw_text( 683, 728, "I've lost my hat in the forest area up above, can you find it for me? \nthere is some secret to the forest i cannot seem to figure out" );
@@ -1409,7 +1411,7 @@ _inst.gmlrunspd=10;
 // } 
 //  
 // if(keyboard_check_pressed(ord("F"))){ 
-// 	place_meeting(x,y,o_npc).use(); 
+// 	if(place_meeting(x,y,o_npc)) o_npc.use(); 
 // } 
 //  
 // move_and_collide(xwant,ywant,o_collide)
@@ -1449,8 +1451,8 @@ _inst.image_index=1;
 ;}
 ;
 if ( yyGetBool(keyboard_check_pressed( 70 ))) {{
-__yyg_call_method((yythis1=yyInst(_inst,_other,place_meeting( _inst , _inst.x, _inst.y, 0 )), yythis1).gmluse)( yythis1 , _other  );
-var yythis1;
+if ( yyGetBool(place_meeting( _inst , _inst.x, _inst.y, 0 ))) {(__temp__=yyInst(_inst,_other,0), __yyg_call_method(__temp__.gmluse)( __temp__ , _other  ));}
+;
 }
 ;}
 ;
