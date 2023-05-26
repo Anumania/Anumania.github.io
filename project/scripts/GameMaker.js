@@ -986,10 +986,6 @@ dt = new Date();
 ];*/
 loads = [
     "LOADING THE GAME",
-    "LOADING THE TOUHOU",
-    "LOADING INCREDIBLE EASTERN PROJECT",
-    "LOADING KASEIGAI",
-    "WOOHOO",
 ];
 loadId = dt.getSeconds()%loads.length;
 selectedload = loads[loadId];
